@@ -10,6 +10,7 @@ class Math_Panel extends JPanel
     {
         this.setBackground(new Color(204, 229, 255));
         this.setLayout(new GridLayout(7, 1, 5, 5));
+        this.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
 
         content = new JPanel[7];
 

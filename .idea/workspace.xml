@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="780bd445-e28f-47ad-9cea-3bf3c619e698" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Division.class" afterPath="$PROJECT_DIR$/out/production/Polynoms/Math_Division.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Math_Division.java" afterPath="$PROJECT_DIR$/src/Math_Division.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/List_Delete.java" afterPath="$PROJECT_DIR$/src/List_Delete.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Math_Panel.java" afterPath="$PROJECT_DIR$/src/Math_Panel.java" />
     </list>
     <ignored path="Polynoms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Math_Division.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Math_Division.java">
+      <file leaf-file-name="List_Delete.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/List_Delete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="389">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,13 +86,13 @@
         <option value="$PROJECT_DIR$/src/Menu_Button.java" />
         <option value="$PROJECT_DIR$/src/List_Panel.java" />
         <option value="$PROJECT_DIR$/src/List_List.java" />
-        <option value="$PROJECT_DIR$/src/List_Delete.java" />
-        <option value="$PROJECT_DIR$/src/Math_Panel.java" />
         <option value="$PROJECT_DIR$/src/List_Add.java" />
         <option value="$PROJECT_DIR$/src/List_Edit.java" />
         <option value="$PROJECT_DIR$/src/Collection.java" />
         <option value="$PROJECT_DIR$/src/Polynom.java" />
         <option value="$PROJECT_DIR$/src/Math_Division.java" />
+        <option value="$PROJECT_DIR$/src/Math_Panel.java" />
+        <option value="$PROJECT_DIR$/src/List_Delete.java" />
       </list>
     </option>
   </component>
@@ -134,8 +137,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +174,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -446,11 +449,19 @@
       <option name="presentableId" value="Default" />
       <updated>1475774821280</updated>
     </task>
+    <task id="LOCAL-00001" summary="removed import">
+      <created>1476355954018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476355954018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="4" width="1924" height="1084" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -459,12 +470,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35032538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -489,6 +500,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed import" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed import" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -502,9 +517,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Math_Division.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <marker date="1476355906586" expanded="true" signature="178:1543" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math_Division.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding />
+          <folding>
+            <marker date="1476355906586" expanded="true" signature="178:1543" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -632,21 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu_Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-          <folding>
-            <marker date="1476309782909" expanded="true" signature="7:78" placeholder="..." />
-            <marker date="1476309782909" expanded="true" signature="213:575" placeholder="{...}" />
-            <marker date="1476309782909" expanded="true" signature="633:718" placeholder="{...}" />
-            <marker date="1476309782909" expanded="true" signature="765:824" placeholder="{...}" />
-            <marker date="1476309782909" expanded="true" signature="866:922" placeholder="{...}" />
-            <marker date="1476309782909" expanded="true" signature="950:1518" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Math_Derivative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -665,35 +677,6 @@
             <marker date="1476302092155" expanded="true" signature="7:40" placeholder="..." />
             <marker date="1476302092155" expanded="true" signature="121:262" placeholder="{...}" />
             <marker date="1476302092155" expanded="true" signature="301:441" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu_Bar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <marker date="1476312132828" expanded="true" signature="7:40" placeholder="..." />
-            <marker date="1476312132828" expanded="true" signature="128:636" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <marker date="1476312330640" expanded="true" signature="7:78" placeholder="..." />
-            <marker date="1476312330640" expanded="true" signature="341:1611" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -726,20 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_Edit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-          <folding>
-            <marker date="1476347119711" expanded="true" signature="7:40" placeholder="..." />
-            <marker date="1476347119711" expanded="true" signature="342:1271" placeholder="{...}" />
-            <marker date="1476347119711" expanded="true" signature="1334:2686" placeholder="{...}" />
-            <marker date="1476347119711" expanded="true" signature="2724:3208" placeholder="{...}" />
-            <marker date="1476347119711" expanded="true" signature="3258:3883" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu_Label.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -747,32 +716,6 @@
           <folding>
             <marker date="1476123073248" expanded="true" signature="7:40" placeholder="..." />
             <marker date="1476123073248" expanded="true" signature="108:301" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-          <folding>
-            <marker date="1476345336916" expanded="true" signature="7:40" placeholder="..." />
-            <marker date="1476345336916" expanded="true" signature="177:978" placeholder="{...}" />
-            <marker date="1476345336916" expanded="true" signature="1005:1093" placeholder="{...}" />
-            <marker date="1476345336916" expanded="true" signature="1149:1259" placeholder="{...}" />
-            <marker date="1476345336916" expanded="false" signature="1289:1304" placeholder=" { " />
-            <marker date="1476345336916" expanded="false" signature="1331:1337" placeholder=" }" />
-            <marker date="1476345336916" expanded="false" signature="1384:1399" placeholder=" { " />
-            <marker date="1476345336916" expanded="false" signature="1423:1429" placeholder=" }" />
-            <marker date="1476345336916" expanded="false" signature="1476:1491" placeholder=" { " />
-            <marker date="1476345336916" expanded="false" signature="1515:1521" placeholder=" }" />
-            <marker date="1476345336916" expanded="false" signature="1569:1584" placeholder=" { " />
-            <marker date="1476345336916" expanded="false" signature="1608:1614" placeholder=" }" />
-            <marker date="1476345336916" expanded="false" signature="1664:1679" placeholder=" { " />
-            <marker date="1476345336916" expanded="false" signature="1720:1726" placeholder=" }" />
-            <marker date="1476345336916" expanded="true" signature="1770:1797" placeholder="{...}" />
-            <marker date="1476345336916" expanded="false" signature="1822:1837" placeholder=" { " />
-            <marker date="1476345336916" expanded="false" signature="1889:1895" placeholder=" }" />
           </folding>
         </state>
       </provider>
@@ -1078,7 +1021,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
+          <folding>
+            <marker date="1476355906586" expanded="true" signature="178:1543" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu_Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding>
+            <marker date="1476309782909" expanded="true" signature="7:78" placeholder="..." />
+            <marker date="1476309782909" expanded="true" signature="213:575" placeholder="{...}" />
+            <marker date="1476309782909" expanded="true" signature="633:718" placeholder="{...}" />
+            <marker date="1476309782909" expanded="true" signature="765:824" placeholder="{...}" />
+            <marker date="1476309782909" expanded="true" signature="866:922" placeholder="{...}" />
+            <marker date="1476309782909" expanded="true" signature="950:1518" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu_Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <marker date="1476309542965" expanded="true" signature="7:78" placeholder="..." />
+            <marker date="1476309542965" expanded="true" signature="265:750" placeholder="{...}" />
+            <marker date="1476309542965" expanded="true" signature="795:1069" placeholder="{...}" />
+            <marker date="1476309542965" expanded="true" signature="1122:1369" placeholder="{...}" />
+            <marker date="1476309542965" expanded="false" signature="1389:1404" placeholder=" { " />
+            <marker date="1476309542965" expanded="false" signature="1417:1423" placeholder=" }" />
+            <marker date="1476309542965" expanded="false" signature="1459:1474" placeholder=" { " />
+            <marker date="1476309542965" expanded="false" signature="1507:1513" placeholder=" }" />
+            <marker date="1476309542965" expanded="false" signature="1551:1566" placeholder=" { " />
+            <marker date="1476309542965" expanded="false" signature="1601:1607" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math_Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding>
+            <marker date="1476363236576" expanded="true" signature="7:40" placeholder="..." />
+            <marker date="1476363236576" expanded="true" signature="177:1047" placeholder="{...}" />
+            <marker date="1476363236576" expanded="true" signature="1074:1162" placeholder="{...}" />
+            <marker date="1476363236576" expanded="true" signature="1218:1328" placeholder="{...}" />
+            <marker date="1476363236576" expanded="false" signature="1358:1373" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1400:1406" placeholder=" }" />
+            <marker date="1476363236576" expanded="false" signature="1453:1468" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1492:1498" placeholder=" }" />
+            <marker date="1476363236576" expanded="false" signature="1545:1560" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1584:1590" placeholder=" }" />
+            <marker date="1476363236576" expanded="false" signature="1638:1653" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1677:1683" placeholder=" }" />
+            <marker date="1476363236576" expanded="false" signature="1733:1748" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1789:1795" placeholder=" }" />
+            <marker date="1476363236576" expanded="true" signature="1839:1866" placeholder="{...}" />
+            <marker date="1476363236576" expanded="false" signature="1891:1906" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1958:1964" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List_Edit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding>
+            <marker date="1476347119711" expanded="true" signature="7:40" placeholder="..." />
+            <marker date="1476347119711" expanded="true" signature="342:1271" placeholder="{...}" />
+            <marker date="1476347119711" expanded="true" signature="1334:2686" placeholder="{...}" />
+            <marker date="1476347119711" expanded="true" signature="2724:3208" placeholder="{...}" />
+            <marker date="1476347119711" expanded="true" signature="3258:3883" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <marker date="1476312132828" expanded="true" signature="7:40" placeholder="..." />
+            <marker date="1476312132828" expanded="true" signature="128:636" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List_Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

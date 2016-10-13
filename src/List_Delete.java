@@ -2,19 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
-class List_Delete extends JPanel
+class List_Delete extends List_Panel
 {
-    private Collection collection;
-    private JScrollPane scroller;
-    private JPanel content;
     private Menu_Button[] poly_buttons;
-    private Menu_Label empty_label;
 
     List_Delete(Collection collection, GUI gui)
     {
-        this.collection = collection;
-        this.setBackground(Color.DARK_GRAY);
-        this.setLayout(new GridLayout(1,1));
+        super(collection, "Polynome löschen");
 
         ActionListener al = e -> {
             for (int i = 0; i < poly_buttons.length; i++)
@@ -30,25 +24,19 @@ class List_Delete extends JPanel
             }
         };
 
-        if(this.collection.getLength() == 0)
+        if(collection.getLength() == 0)
         {
-            empty_label = new Menu_Label("Liste leer");
-            this.add(empty_label);
+            this.add_stuff(1, new Menu_Label("Liste leer"));
         }
         else
         {
-            content = new JPanel(new GridLayout(this.collection.getLength(), 1, 3, 3));
-            content.setBackground(Color.blue);
-            scroller = new JScrollPane(content);
-            poly_buttons = new Menu_Button[this.collection.getLength()];
+            poly_buttons = new Menu_Button[collection.getLength()];
 
-            for (int i = 0; i < this.collection.getLength(); i++)
+            for (int i = 0; i < collection.getLength(); i++)
             {
                 poly_buttons[i] = new Menu_Button(collection.getText(i), al);
-                    content.add(poly_buttons[i]);
+                this.add_stuff(i+1, poly_buttons[i]);
             }
-
-            this.add(scroller);
         }
     }
 }
