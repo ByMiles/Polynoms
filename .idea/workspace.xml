@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="780bd445-e28f-47ad-9cea-3bf3c619e698" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Division.class" afterPath="$PROJECT_DIR$/out/production/Polynoms/Math_Division.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Draw.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Delete.class" afterPath="$PROJECT_DIR$/out/production/Polynoms/List_Delete.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Panel.class" afterPath="$PROJECT_DIR$/out/production/Polynoms/Math_Panel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/List_Delete.java" afterPath="$PROJECT_DIR$/src/List_Delete.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Math_Panel.java" afterPath="$PROJECT_DIR$/src/Math_Panel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI.java" />
     </list>
     <ignored path="Polynoms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="List_Delete.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/List_Delete.java">
+      <file leaf-file-name="Draw.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Draw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +83,6 @@
         <option value="$PROJECT_DIR$/src/Math_Root.java" />
         <option value="$PROJECT_DIR$/src/Math_Value_at_Position.java" />
         <option value="$PROJECT_DIR$/src/Menu_Bar.java" />
-        <option value="$PROJECT_DIR$/src/GUI.java" />
         <option value="$PROJECT_DIR$/src/Menu_Button.java" />
         <option value="$PROJECT_DIR$/src/List_Panel.java" />
         <option value="$PROJECT_DIR$/src/List_List.java" />
@@ -93,6 +93,9 @@
         <option value="$PROJECT_DIR$/src/Math_Division.java" />
         <option value="$PROJECT_DIR$/src/Math_Panel.java" />
         <option value="$PROJECT_DIR$/src/List_Delete.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/GUI.java" />
+        <option value="$PROJECT_DIR$/src/Draw.java" />
       </list>
     </option>
   </component>
@@ -137,9 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,6 +174,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -456,12 +459,19 @@
       <option name="project" value="LOCAL" />
       <updated>1476355954018</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated List_Delete">
+      <created>1476363936393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1476363936393</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="4" width="1924" height="1084" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -471,11 +481,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35032538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30477223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25027028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -502,7 +512,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed import" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed import" />
+    <MESSAGE value="updated List_Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated List_Delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -515,6 +526,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/List_Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <marker date="1476363629844" expanded="true" signature="7:78" placeholder="..." />
+            <marker date="1476363629844" expanded="true" signature="212:1143" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Math_Division.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -578,10 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1476123073353" expanded="true" signature="7:40" placeholder="..." />
-            <marker date="1476123073353" expanded="true" signature="101:248" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,16 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Addition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1476305058149" expanded="true" signature="176:1029" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,22 +647,6 @@
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
             <marker date="1476305405022" expanded="true" signature="261:1295" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <marker date="1476309564416" expanded="true" signature="7:40" placeholder="..." />
-            <marker date="1476309564416" expanded="true" signature="202:1215" placeholder="{...}" />
-            <marker date="1476309564416" expanded="true" signature="1262:2640" placeholder="{...}" />
-            <marker date="1476309564416" expanded="false" signature="2672:2687" placeholder=" { " />
-            <marker date="1476309564416" expanded="false" signature="2710:2716" placeholder=" }" />
-            <marker date="1476309564416" expanded="true" signature="2747:2866" placeholder="{...}" />
-            <marker date="1476309564416" expanded="true" signature="2898:3037" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -713,10 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1476123073248" expanded="true" signature="7:40" placeholder="..." />
-            <marker date="1476123073248" expanded="true" signature="108:301" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,32 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-          <folding>
-            <marker date="1476363236576" expanded="true" signature="7:40" placeholder="..." />
-            <marker date="1476363236576" expanded="true" signature="177:1047" placeholder="{...}" />
-            <marker date="1476363236576" expanded="true" signature="1074:1162" placeholder="{...}" />
-            <marker date="1476363236576" expanded="true" signature="1218:1328" placeholder="{...}" />
-            <marker date="1476363236576" expanded="false" signature="1358:1373" placeholder=" { " />
-            <marker date="1476363236576" expanded="false" signature="1400:1406" placeholder=" }" />
-            <marker date="1476363236576" expanded="false" signature="1453:1468" placeholder=" { " />
-            <marker date="1476363236576" expanded="false" signature="1492:1498" placeholder=" }" />
-            <marker date="1476363236576" expanded="false" signature="1545:1560" placeholder=" { " />
-            <marker date="1476363236576" expanded="false" signature="1584:1590" placeholder=" }" />
-            <marker date="1476363236576" expanded="false" signature="1638:1653" placeholder=" { " />
-            <marker date="1476363236576" expanded="false" signature="1677:1683" placeholder=" }" />
-            <marker date="1476363236576" expanded="false" signature="1733:1748" placeholder=" { " />
-            <marker date="1476363236576" expanded="false" signature="1789:1795" placeholder=" }" />
-            <marker date="1476363236576" expanded="true" signature="1839:1866" placeholder="{...}" />
-            <marker date="1476363236576" expanded="false" signature="1891:1906" placeholder=" { " />
-            <marker date="1476363236576" expanded="false" signature="1958:1964" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/List_Edit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -1114,8 +1076,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/List_Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
+        <state relative-caret-position="730">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <marker date="1476363629844" expanded="true" signature="7:78" placeholder="..." />
+            <marker date="1476363629844" expanded="true" signature="212:1143" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math_Addition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <marker date="1476305058149" expanded="true" signature="176:1029" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math_Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <marker date="1476363236576" expanded="true" signature="7:40" placeholder="..." />
+            <marker date="1476363236576" expanded="true" signature="177:1047" placeholder="{...}" />
+            <marker date="1476363236576" expanded="true" signature="1074:1162" placeholder="{...}" />
+            <marker date="1476363236576" expanded="true" signature="1218:1328" placeholder="{...}" />
+            <marker date="1476363236576" expanded="false" signature="1358:1373" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1400:1406" placeholder=" }" />
+            <marker date="1476363236576" expanded="false" signature="1453:1468" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1492:1498" placeholder=" }" />
+            <marker date="1476363236576" expanded="false" signature="1545:1560" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1584:1590" placeholder=" }" />
+            <marker date="1476363236576" expanded="false" signature="1638:1653" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1677:1683" placeholder=" }" />
+            <marker date="1476363236576" expanded="false" signature="1733:1748" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1789:1795" placeholder=" }" />
+            <marker date="1476363236576" expanded="true" signature="1839:1866" placeholder="{...}" />
+            <marker date="1476363236576" expanded="false" signature="1891:1906" placeholder=" { " />
+            <marker date="1476363236576" expanded="false" signature="1958:1964" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <marker date="1476561096931" expanded="true" signature="7:40" placeholder="..." />
+            <marker date="1476561096931" expanded="true" signature="202:1225" placeholder="{...}" />
+            <marker date="1476561096931" expanded="true" signature="1272:2879" placeholder="{...}" />
+            <marker date="1476561096931" expanded="false" signature="2911:2926" placeholder=" { " />
+            <marker date="1476561096931" expanded="false" signature="2949:2955" placeholder=" }" />
+            <marker date="1476561096931" expanded="true" signature="2986:3105" placeholder="{...}" />
+            <marker date="1476561096931" expanded="true" signature="3137:3276" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Draw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -19,7 +19,7 @@ class GUI extends JFrame
         this.setLocationRelativeTo(null);
         this.getContentPane().setLayout(new BorderLayout());
 
-        menu_bar = new Menu_Bar(new String[]{"anzeigen", "hinzufügen", "bearbeiten", "entfernen", "Funktionswert", "Addition", "Subtraktion", "Multiplikation", "Division", "Nullstelle", "Ableitung"}, this);
+        menu_bar = new Menu_Bar(new String[]{"anzeigen", "hinzufügen", "bearbeiten", "entfernen", "Funktionswert", "Addition", "Subtraktion", "Multiplikation", "Division", "Nullstelle", "Ableitung", "Graph"}, this);
         JScrollPane menu_scroller = new JScrollPane(menu_bar, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         this.getContentPane().add(menu_scroller, BorderLayout.LINE_START);
         
@@ -30,6 +30,7 @@ class GUI extends JFrame
         disableButtons();
         
         this.setVisible(true);
+
     }
     
 
@@ -38,6 +39,8 @@ class GUI extends JFrame
     {
         this.getContentPane().remove(action_panel);
         action_panel = new JPanel(new GridLayout(1, 1));
+        this.add(action_panel);
+        this.setVisible(true);
 
         switch (selection)
         {
@@ -63,10 +66,13 @@ class GUI extends JFrame
                 break;
             case 10: action_panel.add(new Math_Derivative(collection, this));
                 break;
+            case 11: action_panel.add(new Draw(collection, action_panel.getWidth(), action_panel.getHeight()));
+                break;
             default: action_panel.add(new List_List(collection));
         }
         this.getContentPane().add(action_panel);
         this.getContentPane().revalidate();
+        this.setVisible(true);
     }
 
     Collection getCollection()
