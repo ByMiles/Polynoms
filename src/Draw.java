@@ -4,13 +4,12 @@ import java.awt.*;
 class Draw extends JPanel
 {
     Collection collection;
-    JPanel content[];
-    public int height_x;
-    public int width_x;
-    int[][]values;
-    double[]value;
-    Menu_dropdown dropdown;
-    int selected;
+    private int height_x;
+    private int width_x;
+    private int[][]values;
+    private double[]value;
+    private Menu_dropdown dropdown;
+    private int selected;
 
     Draw(Collection collection, int width, int height)
     {
@@ -25,7 +24,7 @@ class Draw extends JPanel
         value = new double[400];
         selected = -1;
 
-        content = new JPanel[4];
+        JPanel[] content = new JPanel[4];
         content[0] = new JPanel(new GridLayout(2,1));
         this.add(content[0], BorderLayout.PAGE_START);
 
@@ -75,7 +74,7 @@ class Draw extends JPanel
         this.revalidate();
     }
 
-    void getValues()
+    private void getValues()
     {
         for (int i = 0; i < value.length; i++)
         {
