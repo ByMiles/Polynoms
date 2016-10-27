@@ -14,14 +14,14 @@ class Math_Addition extends Math_Panel
         this.collection = collection;
         this.gui = gui;
 
-        Menu_dropdown[] dropdown = new Menu_dropdown[2];
+        Menu_Dropdown[] dropdown = new Menu_Dropdown[2];
 
-        dropdown[0] = new Menu_dropdown(collection.getAsArray());
+        dropdown[0] = new Menu_Dropdown(collection.getAsArray());
         this.add_stuff(1, dropdown[0]);
 
         this.add_stuff(2, new Menu_Label("+"));
 
-        dropdown[1] = new Menu_dropdown(collection.getAsArray());
+        dropdown[1] = new Menu_Dropdown(collection.getAsArray());
 
         this.add_stuff(3, dropdown[1]);
 
@@ -35,8 +35,11 @@ class Math_Addition extends Math_Panel
 
         this.add_stuff(6, new Menu_Button("Speichern", e ->
         {
-            collection.addPolynom(result);
-            this.gui.action(5);
+            if(this.check_output())
+            {
+                collection.addPolynom(result);
+                this.gui.action(5);
+            }
         }));
     }
 }

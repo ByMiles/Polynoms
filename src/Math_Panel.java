@@ -49,6 +49,11 @@ class Math_Panel extends JPanel
         result_label.setText(text);
     }
 
+    boolean check_output()
+    {
+        return !(result_label.getText().equals("") || result_label.getText().substring(0,7).equals("<html>0"));
+    }
+
     void add_stuff(int row, Menu_Input stuff)
     {
         content[row].add(stuff);
@@ -64,7 +69,7 @@ class Math_Panel extends JPanel
         content[row].add(stuff);
     }
 
-    void add_stuff(int row, Menu_dropdown stuff)
+    void add_stuff(int row, Menu_Dropdown stuff)
     {
         content[row].add(new JScrollPane(stuff));
     }

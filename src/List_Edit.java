@@ -4,19 +4,22 @@ import java.awt.*;
 class List_Edit extends Math_Panel
 {
     private Collection collection;
-    private Menu_dropdown dropdown;
+    private Menu_Dropdown dropdown;
 
     private JPanel exchanable, poly_panel;
     private Menu_Input[] poly_fields;
     private int[] poly_array;
     private Menu_Label confirm_label;
 
+    private boolean selected;
+
     List_Edit(Collection collection)
     {
         super("Ein Polynom bearbeiten");
         this.collection = collection;
+        selected = false;
 
-        dropdown = new Menu_dropdown(collection.getAsArray());
+        dropdown = new Menu_Dropdown(collection.getAsArray());
         this.add_stuff(1, dropdown);
 
         Menu_Input grade_field = new Menu_Input();
@@ -32,8 +35,16 @@ class List_Edit extends Math_Panel
         this.add_with_scroller(4, exchanable);
 
         this.split(5);
-        this.add_stuff(5, new Menu_Button("hinzufügen", e -> setPolyarray()));
-        this.add_stuff(5, new Menu_Button("ersetzen", e -> setPolyarray(dropdown.getSelectedIndex())));
+        this.add_stuff(5, new Menu_Button("hinzufügen", e ->
+        {
+            if(selected)
+                setPolyarray();
+        }));
+        this.add_stuff(5, new Menu_Button("ersetzen", e ->
+        {
+            if(selected)
+                setPolyarray(dropdown.getSelectedIndex());
+        }));
 
         confirm_label = new Menu_Label("");
         this.add_stuff(6, confirm_label);
@@ -83,6 +94,7 @@ class List_Edit extends Math_Panel
 
         exchanable.add(poly_panel);
         exchanable.revalidate();
+        selected = true;
     }
 
     private void setPolyarray()

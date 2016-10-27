@@ -12,7 +12,7 @@ class Math_Derivative extends Math_Panel
         super("Bestimmen einer Ableitung");
         this.gui = gui;
 
-        Menu_dropdown dropdown = new Menu_dropdown(collection.getAsArray());
+        Menu_Dropdown dropdown = new Menu_Dropdown(collection.getAsArray());
 
         this.add_stuff(1, dropdown);
 
@@ -31,8 +31,11 @@ class Math_Derivative extends Math_Panel
 
         this.add_stuff(6, new Menu_Button("Speichern", e ->
         {
-            collection.addPolynom(result);
-            this.gui.action(10);
+            if(this.check_output())
+            {
+                collection.addPolynom(result);
+                this.gui.action(10);
+            }
         }));
     }
 }

@@ -1,17 +1,17 @@
 import javax.swing.*;
 import java.awt.*;
 
-class Draw extends JPanel
+class Math_Draw extends JPanel
 {
     Collection collection;
     private int height_x;
     private int width_x;
     private int[][]values;
     private double[]value;
-    private Menu_dropdown dropdown;
+    private Menu_Dropdown dropdown;
     private int selected;
 
-    Draw(Collection collection, int width, int height)
+    Math_Draw(Collection collection, int width, int height)
     {
         this.width_x = width-10;
         this.height_x = (int)(height*0.76);
@@ -29,6 +29,7 @@ class Draw extends JPanel
         this.add(content[0], BorderLayout.PAGE_START);
 
         content[1] = new JPanel();
+        content[1].setBackground(new Color(204, 229, 255));
         JLabel title_label = new JLabel("Graph eines Polynoms");
         title_label.setHorizontalAlignment(JLabel.CENTER);
         title_label.setVerticalAlignment(JLabel.CENTER);
@@ -40,7 +41,8 @@ class Draw extends JPanel
         content[0].add(content[1]);
 
         content[2] = new JPanel();
-        dropdown = new Menu_dropdown(collection.getAsArray());
+        content[2].setBackground(new Color(204, 229, 255));
+        dropdown = new Menu_Dropdown(collection.getAsArray());
         content[2].add(dropdown);
         content[0].add(content[2]);
 
@@ -94,19 +96,19 @@ class Draw extends JPanel
                 min = value[i];
         }
 
-        double range = Math.abs(max - min);
+        double range = (max - min);
         double factor;
         if(range == 0)
             factor = 1;
         else
-            factor = 400./Math.abs(max - min);
+            factor = 400./(max - min);
 
         System.out.println(min + " " + max + " " + range + " " + factor);
 
         for (int i = 0; i < values.length; i++)
         {
             values[i][0] = i - 200 + zero_x;
-            values[i][1] = zero_y - (int)((value[i])*factor);
+            values[i][1] = (zero_y-200) + (int)((max - value[i])*factor);
             System.out.println(value[i] + " " + values[i][0] + " " + values[i][1]);
         }
 

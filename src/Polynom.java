@@ -64,10 +64,12 @@ class Polynom
         if(!text.equals("<html>") && values[0] > 0)
             text += " + ";
         if(values[0] != 0)
-            text += String.valueOf(Math.abs(values[0])) + "</html>";
+            text += String.valueOf(Math.abs(values[0]));
 
-        if(text.equals("<html>"))
-            text = "0";
+        text += "</html>";
+
+        if(text.equals("<html></html>"))
+            text = "<html>0</html>";
         return text;
     }
 
@@ -97,5 +99,31 @@ class Polynom
         text += ")";
 
         return text;
+    }
+
+    void optimize()
+    {
+        if(values[values.length-1] != 0)
+        {
+            return;
+        }
+
+        int start = values.length;
+
+        while(true)
+        {
+            if(values[start-1] != 0)
+                break;
+            start--;
+        }
+
+        int[] copy = new int[start];
+
+        for (int i = 0; i < copy.length ; i++)
+        {
+            copy[i] = values[i];
+        }
+        values = copy;
+        length = values.length;
     }
 }

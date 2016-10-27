@@ -4,7 +4,7 @@ class Math_Value_at_Position extends Math_Panel
 {
     private Collection collection;
 
-    private Menu_dropdown dropdown;
+    private Menu_Dropdown dropdown;
 
     private Menu_Label result_label, horner_label;
     private Menu_Input field;
@@ -14,7 +14,7 @@ class Math_Value_at_Position extends Math_Panel
         super("Funktionswert der Stelle X");
         this.collection = collection;
 
-        dropdown = new Menu_dropdown(this.collection.getAsArray());
+        dropdown = new Menu_Dropdown(this.collection.getAsArray());
         this.add_stuff(1, dropdown);
 
         this.add_stuff(2, new Menu_Label("x-Wert:"));

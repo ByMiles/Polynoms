@@ -9,7 +9,7 @@ class Math_Root extends Math_Panel
         super("Bestimmen einer Nullstelle");
 
 
-        Menu_dropdown dropdown = new Menu_dropdown(collection.getAsArray());
+        Menu_Dropdown dropdown = new Menu_Dropdown(collection.getAsArray());
         this.add_stuff(1, dropdown);
 
         this.add_stuff(4, new Menu_Button("   =   ", e ->

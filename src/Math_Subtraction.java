@@ -4,7 +4,7 @@ class Math_Subtraction extends Math_Panel {
 
     private GUI gui;
     private Polynom result;
-    private Menu_dropdown[] dropdown;
+    private Menu_Dropdown[] dropdown;
 
 
 
@@ -12,14 +12,14 @@ class Math_Subtraction extends Math_Panel {
         super("Subtraktion zweier Polynome");
         this.gui = gui;
 
-        dropdown = new Menu_dropdown[2];
+        dropdown = new Menu_Dropdown[2];
 
-        dropdown[0] = new Menu_dropdown(collection.getAsArray());
+        dropdown[0] = new Menu_Dropdown(collection.getAsArray());
         this.add_stuff(1, dropdown[0]);
 
         this.add_stuff(2, new Menu_Label("-"));
 
-        dropdown[1] = new Menu_dropdown(collection.getAsArray());
+        dropdown[1] = new Menu_Dropdown(collection.getAsArray());
         this.add_stuff(3, dropdown[1]);
 
         this.add_stuff(4, new Menu_Button("   =   ", e ->
@@ -32,8 +32,11 @@ class Math_Subtraction extends Math_Panel {
 
         this.add_stuff(6, new Menu_Button("Speichern", e ->
         {
-            collection.addPolynom(result);
-            this.gui.action(6);
+            if(this.check_output())
+            {
+                collection.addPolynom(result);
+                this.gui.action(6);
+            }
         }));
     }
 }

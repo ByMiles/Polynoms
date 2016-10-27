@@ -1,16 +1,39 @@
 import java.util.ArrayList;
-import java.util.DoubleSummaryStatistics;
 
+/**
+ * <h1>Collection</h1>
+ * <p>
+ * This class is the backbone of the program.
+ * Polynomials are saved in the ArrayList collection.
+ * Operations with this saved polynomials are collected here.<p>
+ * <b>Note:</b> Polynomial values can only be set by the class Polynomial.
+ */
 class Collection {
+
     private ArrayList<Polynom> collection;
 
+    /**
+     * ArrayList collection is initialized
+     */
     Collection() {
         this.collection = new ArrayList<>();
     }
 
+    /**
+     * adds a polynomial at the end of the collection.
+     *
+     * @param polynom polynomial which is to be added to collection
+     */
     void addPolynom(Polynom polynom) {
         this.collection.add(polynom);
     }
+
+    /**
+     * adds a polynomial at a specific position of the collection.
+     *
+     * @param position position where the polynomial is to be added
+     * @param polynom  polynomial which is to be added to collection
+     */
     void addPolynom(int position, Polynom polynom) { this.collection.add(position, polynom);}
 
     Polynom createPolynom(int[] poly_array) {
@@ -20,6 +43,7 @@ class Collection {
             polynom.setValue(i, poly_array[i]);
         }
 
+        polynom.optimize();
         return polynom;
     }
 
@@ -408,6 +432,13 @@ class Collection {
             }
         }
         Polynom polynom = new Polynom(start);
+        if(start == 0)
+        {
+            polynom = new Polynom(1);
+            polynom.setValue(0, 0);
+            polynom.setRemainder(collection.get(position).getValue(0), under*-1);
+            return polynom;
+        }
         value = collection.get(position).getValue(start);
         polynom.setValue(polynom.getLength()-1, value);
         start--;
