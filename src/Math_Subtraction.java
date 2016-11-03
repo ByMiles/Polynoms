@@ -35,7 +35,7 @@ class Math_Subtraction extends Math_Panel {
             if(this.check_output())
             {
                 collection.addPolynom(result);
-                this.gui.action(6);
+                this.gui.action(5);
             }
         }));
     }

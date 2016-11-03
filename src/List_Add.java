@@ -8,7 +8,7 @@ class List_Add extends Math_Panel
     private GUI gui;
     private JPanel exchangeable, poly_panel;
     private Menu_Input[] poly_fields;
-    private int[] poly_array;
+    private double[] poly_array;
     private Menu_Label confirm_label;
 
 
@@ -57,7 +57,7 @@ class List_Add extends Math_Panel
         poly_panel.setBackground(new Color(204, 229, 255));
         poly_fields = new Menu_Input[number+1];
         Menu_Label[] poly_labels = new Menu_Label[number + 1];
-        poly_array = new int[number+1];
+        poly_array = new double[number+1];
 
         for (int i = number; i >= 0 ; i--)
         {
@@ -86,7 +86,7 @@ class List_Add extends Math_Panel
         {
             try
             {
-                poly_array[i] = Integer.parseInt(poly_fields[i].getText());
+                poly_array[i] = Double.parseDouble(poly_fields[i].getText());
             }
             catch(NumberFormatException e){poly_array[i] = 0;}
             sum += Math.abs(poly_array[i]);

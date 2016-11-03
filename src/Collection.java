@@ -36,7 +36,7 @@ class Collection {
      */
     void addPolynom(int position, Polynom polynom) { this.collection.add(position, polynom);}
 
-    Polynom createPolynom(int[] poly_array) {
+    Polynom createPolynom(double[] poly_array) {
         Polynom polynom = new Polynom(poly_array.length);
 
         for (int i = 0; i < poly_array.length; i++) {
@@ -146,7 +146,7 @@ class Collection {
             polynom = new Polynom(collection.get(position_2).getLength());
 
         for (int i = 0; i < polynom.getLength(); i++) {
-            int a, b;
+            double a, b;
             try {
                 a = collection.get(position_1).getValue(i);
             } catch (Exception e) {
@@ -172,7 +172,7 @@ class Collection {
             polynom = new Polynom(collection.get(position_2).getLength());
 
         for (int i = 0; i < polynom.getLength(); i++) {
-            int a, b;
+            double a, b;
             try {
                 a = collection.get(position_1).getValue(i);
             } catch (Exception e) {
@@ -206,7 +206,7 @@ class Collection {
         return polynom;
     }
 
-    private Polynom multi_fractions(int multiplicator, int power, int position_2) {
+    private Polynom multi_fractions(double multiplicator, int power, int position_2) {
         Polynom fraction = new Polynom(power + collection.get(position_2).getLength());
 
         for (int i = 0; i < collection.get(position_2).getLength(); i++) {
@@ -227,7 +227,7 @@ class Collection {
             polynom = new Polynom(polynom_2.getLength());
 
         for (int i = 0; i < polynom.getLength(); i++) {
-            int a, b;
+            double a, b;
             try {
                 a = polynom_1.getValue(i);
             } catch (Exception e) {
@@ -409,7 +409,7 @@ class Collection {
     Polynom divisionHorner(int position, String valueS)
     {
         int under;
-        int value;
+        double value;
 
         try
         {
@@ -417,7 +417,10 @@ class Collection {
         }
         catch (NumberFormatException e)
         {
-            return new Polynom(1);
+            if(valueS.equals(""))
+                under = 0;
+            else
+                return new Polynom(1);
         }
 
 

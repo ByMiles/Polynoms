@@ -1,21 +1,21 @@
 
 class Polynom
 {
-    private int[] values;
-    private int[] remainder;
+    private double[] values;
+    private double[] remainder;
     private int length;
 
     Polynom(int length)
     {
         this.length = length;
-        values = new int[length];
+        values = new double[length];
 
         for (int i = 0; i < values.length; i++)
         {
             values[i] = 0;
         }
 
-        remainder = new int[]{0, 0};
+        remainder = new double[]{0, 0};
     }
 
     int getLength()
@@ -23,12 +23,12 @@ class Polynom
         return this.length;
     }
 
-    int getValue(int place)
+    double getValue(int place)
     {
         return this.values[place];
     }
 
-    void setValue(int place, int value)
+    void setValue(int place, double value)
     {
         this.values[place] = value;
     }
@@ -73,13 +73,13 @@ class Polynom
         return text;
     }
 
-    void setRemainder(int above, int under)
+    void setRemainder(double above, int under)
     {
         remainder[0] = above;
         remainder[1] = under;
     }
 
-    int[] getRemainder()
+    double[] getRemainder()
     {
         return remainder;
     }
@@ -112,12 +112,12 @@ class Polynom
 
         while(true)
         {
-            if(values[start-1] != 0)
+            if(values[start-1] != 0.)
                 break;
             start--;
         }
 
-        int[] copy = new int[start];
+        double[] copy = new double[start];
 
         for (int i = 0; i < copy.length ; i++)
         {

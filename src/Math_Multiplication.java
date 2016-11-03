@@ -6,9 +6,6 @@ class Math_Multiplication extends Math_Panel
     private Polynom result;
     private Menu_Dropdown[] dropdown;
 
-
-
-
     Math_Multiplication(Collection collection, GUI gui)
     {
         super("Multiplizieren zweier Polynome");
@@ -34,10 +31,10 @@ class Math_Multiplication extends Math_Panel
 
         this.add_stuff(6, new Menu_Button("Speichern", e ->
         {
-            if(this.check_output())
+            if(this.check_output() && result.getLength() <= 21)
             {
                 collection.addPolynom(result);
-                this.gui.action(7);
+                this.gui.action(6);
             }
         }));
     }

@@ -26,13 +26,13 @@ class GUI extends JFrame {
     GUI(int width, int height) {
         collection = new Collection();
 
-        this.setTitle("Working with Polynoms by Miles ;-)");
+        this.setTitle("Working with polynomials by Miles ;-)");
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.setSize(new Dimension(width, height));
         this.setLocationRelativeTo(null);
         this.getContentPane().setLayout(new BorderLayout());
 
-        menu_bar = new Menu_Bar(new String[]{"anzeigen", "hinzufügen", "bearbeiten", "entfernen", "Funktionswert", "Addition", "Subtraktion", "Multiplikation", "Division", "Nullstelle", "Ableitung", "Graph"}, this);
+        menu_bar = new Menu_Bar(new String[]{"anzeigen", "hinzufügen", "bearbeiten", "entfernen", "Addition", "Subtraktion", "Multiplikation", "Division", "Funktionswert", "Nullstelle", "Ableitung", "Graph"}, this);
         JScrollPane menu_scroller = new JScrollPane(menu_bar, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         this.getContentPane().add(menu_scroller, BorderLayout.LINE_START);
 
@@ -70,19 +70,19 @@ class GUI extends JFrame {
                 action_panel.add(new List_Delete(collection, this));
                 break;
             case 4:
-                action_panel.add(new Math_Value_at_Position(collection));
-                break;
-            case 5:
                 action_panel.add(new Math_Addition(collection, this));
                 break;
-            case 6:
+            case 5:
                 action_panel.add(new Math_Subtraction(collection, this));
                 break;
-            case 7:
+            case 6:
                 action_panel.add(new Math_Multiplication(collection, this));
                 break;
-            case 8:
+            case 7:
                 action_panel.add(new Math_Division(collection, this));
+                break;
+            case 8:
+                action_panel.add(new Math_Value_at_Position(collection));
                 break;
             case 9:
                 action_panel.add(new Math_Root(collection));

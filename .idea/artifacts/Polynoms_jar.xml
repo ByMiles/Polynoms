@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Polynoms:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Polynoms_jar</output-path>
+    <root id="archive" name="Polynoms.jar">
+      <element id="module-output" name="Polynoms" />
+    </root>
+  </artifact>
+</component>
