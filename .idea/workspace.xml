@@ -11,8 +11,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_dropdown.class" afterPath="$PROJECT_DIR$/out/production/Polynoms/Menu_dropdown.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polynoms/Polynom.class" afterPath="$PROJECT_DIR$/out/production/Polynoms/Polynom.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Collection.java" afterPath="$PROJECT_DIR$/src/Collection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Polynom.java" afterPath="$PROJECT_DIR$/src/Polynom.java" />
     </list>
     <ignored path="Polynoms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -507,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477531363652</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="division now with double">
+      <created>1478734993038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1478734993038</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -555,7 +560,8 @@
     <MESSAGE value="removed import" />
     <MESSAGE value="updated List_Delete" />
     <MESSAGE value="added Graph drawing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Graph drawing" />
+    <MESSAGE value="division now with double" />
+    <option name="LAST_COMMIT_MESSAGE" value="division now with double" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -618,6 +624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -738,6 +745,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,6 +840,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="97" column="59" selection-start-line="97" selection-start-column="59" selection-end-line="97" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
