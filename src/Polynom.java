@@ -73,7 +73,7 @@ class Polynom
         return text;
     }
 
-    void setRemainder(double above, int under)
+    void setRemainder(double above, double under)
     {
         remainder[0] = above;
         remainder[1] = under;

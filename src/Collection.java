@@ -408,12 +408,12 @@ class Collection {
 
     Polynom divisionHorner(int position, String valueS)
     {
-        int under;
+        double under;
         double value;
 
         try
         {
-            under = Integer.parseInt(valueS);
+            under = Double.parseDouble(valueS);
         }
         catch (NumberFormatException e)
         {
