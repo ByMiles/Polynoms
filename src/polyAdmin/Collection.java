@@ -377,8 +377,10 @@ public class Collection {
         // parsing a_value to double
         try {
             // -- = +
-            if (a_value.substring(0, 2).equals("--"))
-                a_value = a_value.substring(2);
+            if(a_value.length() > 1) {
+                if (a_value.substring(0, 2).equals("--"))
+                    a_value = a_value.substring(2);
+            }
             under = Double.parseDouble(a_value);
         } catch (NumberFormatException e) {
             if (a_value.equals(""))
