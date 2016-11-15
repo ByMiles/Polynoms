@@ -1,15 +1,6 @@
-import GUI.GUI;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
-        new Main();
-    }
-
-    private Main()
-    {
-        new GUI(800, 600);
+public class Main {
+    public static void main(String[] args) {
+        new GUI.GUI(800, 600);
     }
 }
-

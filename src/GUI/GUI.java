@@ -7,8 +7,8 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * <h1>GUI.GUI</h1>
- * <p>
+ * @author Miles Lorenz (S0556515) <br>
+ * @version 1.0 <br>
  * - provides the frame for the hole programm<br>
  * - includes the Menu_Bar menu_bar, which handles the menu<br>
  * - includes the JPanel action_panel, which handles the actual submenu<br>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Polynoms:jar" />
@@ -7,54 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="780bd445-e28f-47ad-9cea-3bf3c619e698" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Collection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/GUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Add.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Delete.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Edit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_List.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Panel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Addition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Derivative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Division.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Draw$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Draw.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Multiplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Panel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Root.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Subtraction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Value_at_Position.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_Bar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_Button.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_Input.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_Label.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_dropdown.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Polynom.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Collection.java" afterPath="$PROJECT_DIR$/src/polyAdmin/Collection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI/GUI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_Add.java" afterPath="$PROJECT_DIR$/src/GUI/list/List_Add.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_Delete.java" afterPath="$PROJECT_DIR$/src/GUI/list/List_Delete.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_Edit.java" afterPath="$PROJECT_DIR$/src/GUI/list/List_Edit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_List.java" afterPath="$PROJECT_DIR$/src/GUI/list/List_List.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_Panel.java" afterPath="$PROJECT_DIR$/src/GUI/List_Panel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Addition.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Addition.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Derivative.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Derivative.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Division.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Division.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Draw.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Draw.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Multiplication.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Multiplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Panel.java" afterPath="$PROJECT_DIR$/src/GUI/Math_Panel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Root.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Root.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Subtraction.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Subtraction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Value_at_Position.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Value_at_Position.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Bar.java" afterPath="$PROJECT_DIR$/src/GUI/Menu_Bar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Button.java" afterPath="$PROJECT_DIR$/src/GUI/menu/Menu_Button.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Dropdown.java" afterPath="$PROJECT_DIR$/src/GUI/menu/Menu_Dropdown.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Input.java" afterPath="$PROJECT_DIR$/src/GUI/menu/Menu_Input.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Label.java" afterPath="$PROJECT_DIR$/src/GUI/menu/Menu_Label.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Polynom.java" afterPath="$PROJECT_DIR$/src/polyAdmin/Polynomial.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handbuch/Allgemeine_Beschreibung.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handbuch/Handbuch.odt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handbuch/P_anzeigen_leer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handbuch/P_anzeigen_voll.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handbuch/P_hinzufuegen.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polynoms/Main.class" afterPath="$PROJECT_DIR$/out/production/Polynoms/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polynoms.iml" afterPath="$PROJECT_DIR$/Polynoms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI/GUI.java" afterPath="$PROJECT_DIR$/src/GUI/GUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/polyAdmin/Collection.java" afterPath="$PROJECT_DIR$/src/polyAdmin/Collection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/polyAdmin/Polynomial.java" afterPath="$PROJECT_DIR$/src/polyAdmin/Polynomial.java" />
     </list>
     <ignored path="Polynoms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,24 +43,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/polyAdmin/Collection.java">
+      <file leaf-file-name="List_Add.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="431" column="7" selection-start-line="431" selection-start-column="7" selection-end-line="431" selection-end-column="7" />
+            <state relative-caret-position="605">
+              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
               <folding>
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2195#2196#0" expanded="true" />
-                <element signature="e#2412#2413#0" expanded="true" />
-                <element signature="e#2459#2460#0" expanded="true" />
-                <element signature="e#2791#2792#0" expanded="true" />
-                <element signature="e#2849#2850#0" expanded="true" />
-                <element signature="e#2994#2995#0" expanded="true" />
-                <element signature="e#3034#3035#0" expanded="true" />
-                <element signature="method#addition#0;class#Collection#0" expanded="false" />
-                <element signature="method#multi_fractions#0;class#Collection#0" expanded="false" />
-                <element signature="method#multi_addition#0;class#Collection#0" expanded="false" />
-                <element signature="method#derivative#0;class#Collection#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,8 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Multiplication.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Menu_Input.java" />
         <option value="$PROJECT_DIR$/src/Menu_Label.java" />
         <option value="$PROJECT_DIR$/src/MenuTools.java" />
@@ -154,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/GUI/List_Panel.java" />
         <option value="$PROJECT_DIR$/src/GUI/Math_Panel.java" />
         <option value="$PROJECT_DIR$/src/GUI/Menu_Bar.java" />
-        <option value="$PROJECT_DIR$/src/GUI/GUI.java" />
         <option value="$PROJECT_DIR$/src/GUI/list/List_Delete.java" />
         <option value="$PROJECT_DIR$/src/GUI/list/List_Edit.java" />
         <option value="$PROJECT_DIR$/src/GUI/list/List_List.java" />
@@ -169,6 +123,9 @@
         <option value="$PROJECT_DIR$/src/GUI/math/Math_Division.java" />
         <option value="$PROJECT_DIR$/src/GUI/math/Math_Draw.java" />
         <option value="$PROJECT_DIR$/src/polyAdmin/Collection.java" />
+        <option value="$PROJECT_DIR$/src/polyAdmin/Polynomial.java" />
+        <option value="$PROJECT_DIR$/src/GUI/GUI.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -213,8 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,24 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polynoms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polynoms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polyAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,7 +297,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Beleg_1_Miles_Lorenz_S0556515/Polynoms_EclipseVersion" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -692,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478785296710</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="packaging, Java-doc">
+      <created>1479210527511</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1479210527511</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,7 +688,8 @@
     <MESSAGE value="added Graph drawing" />
     <MESSAGE value="division now with double" />
     <MESSAGE value="bug fix dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix dropdown" />
+    <MESSAGE value="packaging, Java-doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="packaging, Java-doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,6 +702,64 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/polyAdmin/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8096">
+          <caret line="431" column="6" selection-start-line="431" selection-start-column="6" selection-end-line="431" selection-end-column="6" />
+          <folding>
+            <marker date="1479243647995" expanded="true" signature="49:382" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="461:515" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="539:550" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="586:592" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="598:742" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="792:803" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="835:841" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="847:1073" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="1137:1148" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="1190:1196" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="1202:1543" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="1601:1935" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="1941:2083" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="2127:2138" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="2166:2172" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="2178:2347" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="2394:2405" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="2437:2443" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="2449:2740" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="2780:2791" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="2834:2840" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="2846:2963" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="2990:3001" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="3026:3032" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="3038:3211" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="3249:3446" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="3452:3896" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="3953:4844" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="4850:5311" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="5375:6720" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="6726:7074" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="7138:7913" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="7919:8274" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="8341:9116" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="9122:9474" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="9544:10647" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="10010:10203" ph="//..." />
+            <marker date="1479243647995" expanded="true" signature="10653:11087" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="11176:11618" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="11624:11976" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="12065:12756" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="12762:13077" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="13145:15111" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="15117:15498" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="15536:20232" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="20238:20487" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="20549:21646" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="20988:21100" ph="//..." />
+            <marker date="1479243647995" expanded="true" signature="21274:21402" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/menu/Menu_Dropdown.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -892,13 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuTools.java" />
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/String.java">
@@ -965,26 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-          <folding>
-            <marker date="1479200582891" expanded="true" signature="21:73" ph="..." />
-            <marker date="1479200582891" expanded="true" signature="224:1093" ph="{...}" />
-            <marker date="1479200582891" expanded="true" signature="1131:1219" ph="{...}" />
-            <marker date="1479200582891" expanded="true" signature="1285:1395" ph="{...}" />
-            <marker date="1479200582891" expanded="false" signature="1435:1450" ph=" { " />
-            <marker date="1479200582891" expanded="false" signature="1477:1483" ph=" }" />
-            <marker date="1479200582891" expanded="true" signature="1523:1642" ph="{...}" />
-            <marker date="1479200582891" expanded="false" signature="1696:1711" ph=" { " />
-            <marker date="1479200582891" expanded="false" signature="1735:1741" ph=" }" />
-            <marker date="1479200582891" expanded="false" signature="1795:1810" ph=" { " />
-            <marker date="1479200582891" expanded="false" signature="1834:1840" ph=" }" />
-            <marker date="1479200582891" expanded="false" signature="1895:1910" ph=" { " />
-            <marker date="1479200582891" expanded="false" signature="1934:1940" ph=" }" />
-            <marker date="1479200582891" expanded="false" signature="1997:2012" ph=" { " />
-            <marker date="1479200582891" expanded="false" signature="2053:2059" ph=" }" />
-            <marker date="1479200582891" expanded="true" signature="2110:2137" ph="{...}" />
-            <marker date="1479200582891" expanded="false" signature="2169:2184" ph=" { " />
-            <marker date="1479200582891" expanded="false" signature="2236:2242" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,41 +981,6 @@
             <marker date="1479200583016" expanded="false" signature="1542:1548" ph=" }" />
             <marker date="1479200583016" expanded="false" signature="1586:1601" ph=" { " />
             <marker date="1479200583016" expanded="false" signature="1636:1642" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1626">
-          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
-          <folding>
-            <marker date="1479200583001" expanded="true" signature="21:121" ph="..." />
-            <marker date="1479200583001" expanded="true" signature="123:503" ph="/**...*/" />
-            <marker date="1479200583001" expanded="true" signature="642:816" ph="/**...*/" />
-            <marker date="1479200583001" expanded="true" signature="855:1864" ph="{...}" />
-            <marker date="1479200583001" expanded="true" signature="1870:1999" ph="/**...*/" />
-            <marker date="1479200583001" expanded="true" signature="2038:3851" ph="{...}" />
-            <marker date="1479200583001" expanded="true" signature="3857:3917" ph="/**...*/" />
-            <marker date="1479200583001" expanded="false" signature="3948:3959" ph=" { " />
-            <marker date="1479200583001" expanded="false" signature="3982:3988" ph=" }" />
-            <marker date="1479200583001" expanded="true" signature="3994:4087" ph="/**...*/" />
-            <marker date="1479200583001" expanded="true" signature="4120:4231" ph="{...}" />
-            <marker date="1479200583001" expanded="true" signature="4237:4331" ph="/**...*/" />
-            <marker date="1479200583001" expanded="true" signature="4365:4496" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
-          <folding>
-            <marker date="1479203165120" expanded="true" signature="26:147" ph="..." />
-            <marker date="1479203165120" expanded="true" signature="461:1063" ph="{...}" />
-            <marker date="1479203165120" expanded="true" signature="1112:2204" ph="{...}" />
-            <marker date="1479203165120" expanded="true" signature="2242:2939" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1131,17 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Root.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1479200582907" expanded="true" signature="26:89" ph="..." />
-            <marker date="1479200582907" expanded="true" signature="210:843" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Draw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -1182,46 +1114,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <marker date="1479200582907" expanded="true" signature="26:89" ph="..." />
+            <marker date="1479200582907" expanded="true" signature="210:843" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/polyAdmin/Polynomial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="44">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
-            <marker date="1479203165089" expanded="true" signature="170:381" ph="{...}" />
-            <marker date="1479203165089" expanded="false" signature="409:424" ph=" { " />
-            <marker date="1479203165089" expanded="false" signature="443:449" ph=" }" />
-            <marker date="1479203165089" expanded="false" signature="488:503" ph=" { " />
-            <marker date="1479203165089" expanded="false" signature="529:535" ph=" }" />
-            <marker date="1479203165089" expanded="false" signature="579:594" ph=" { " />
-            <marker date="1479203165089" expanded="false" signature="621:627" ph=" }" />
-            <marker date="1479203165089" expanded="true" signature="662:1768" ph="{...}" />
-            <marker date="1479203165089" expanded="true" signature="1818:1900" ph="{...}" />
-            <marker date="1479203165089" expanded="true" signature="1956:2023" ph="{...}" />
-            <marker date="1479203165089" expanded="false" signature="2052:2067" ph=" { " />
-            <marker date="1479203165089" expanded="false" signature="2084:2090" ph=" }" />
-            <marker date="1479203165089" expanded="true" signature="2134:2458" ph="{...}" />
-            <marker date="1479203165089" expanded="true" signature="2484:2931" ph="{...}" />
+            <marker date="1479243648026" expanded="true" signature="20:313" ph="/**...*/" />
+            <marker date="1479243648026" expanded="true" signature="430:539" ph="/**...*/" />
+            <marker date="1479243648026" expanded="true" signature="578:789" ph="{...}" />
+            <marker date="1479243648026" expanded="true" signature="795:894" ph="/**...*/" />
+            <marker date="1479243648026" expanded="false" signature="921:936" ph=" { " />
+            <marker date="1479243648026" expanded="false" signature="955:961" ph=" }" />
+            <marker date="1479243648026" expanded="true" signature="967:1147" ph="/**...*/" />
+            <marker date="1479243648026" expanded="false" signature="1188:1203" ph=" { " />
+            <marker date="1479243648026" expanded="false" signature="1232:1238" ph=" }" />
+            <marker date="1479243648026" expanded="true" signature="1244:1426" ph="/**...*/" />
+            <marker date="1479243648026" expanded="false" signature="1472:1487" ph=" { " />
+            <marker date="1479243648026" expanded="false" signature="1517:1523" ph=" }" />
+            <marker date="1479243648026" expanded="true" signature="1529:1689" ph="/**...*/" />
+            <marker date="1479243648026" expanded="true" signature="1723:2829" ph="{...}" />
+            <marker date="1479243648026" expanded="true" signature="2879:2961" ph="{...}" />
+            <marker date="1479243648026" expanded="true" signature="3017:3084" ph="{...}" />
+            <marker date="1479243648026" expanded="false" signature="3120:3135" ph=" { " />
+            <marker date="1479243648026" expanded="false" signature="3152:3158" ph=" }" />
+            <marker date="1479243648026" expanded="true" signature="3202:3526" ph="{...}" />
+            <marker date="1479243648026" expanded="true" signature="3532:3592" ph="/**...*/" />
+            <marker date="1479243648026" expanded="true" signature="3617:4064" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <marker date="1479243780414" expanded="true" signature="21:121" ph="..." />
+            <marker date="1479243780414" expanded="true" signature="123:537" ph="/**...*/" />
+            <marker date="1479243780414" expanded="true" signature="676:850" ph="/**...*/" />
+            <marker date="1479243780414" expanded="true" signature="889:1898" ph="{...}" />
+            <marker date="1479243780414" expanded="true" signature="1904:2033" ph="/**...*/" />
+            <marker date="1479243780414" expanded="true" signature="2072:3885" ph="{...}" />
+            <marker date="1479243780414" expanded="true" signature="3891:3951" ph="/**...*/" />
+            <marker date="1479243780414" expanded="false" signature="3982:3993" ph=" { " />
+            <marker date="1479243780414" expanded="false" signature="4016:4022" ph=" }" />
+            <marker date="1479243780414" expanded="true" signature="4028:4121" ph="/**...*/" />
+            <marker date="1479243780414" expanded="true" signature="4154:4265" ph="{...}" />
+            <marker date="1479243780414" expanded="true" signature="4271:4365" ph="/**...*/" />
+            <marker date="1479243780414" expanded="true" signature="4399:4530" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/polyAdmin/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="431" column="7" selection-start-line="431" selection-start-column="7" selection-end-line="431" selection-end-column="7" />
+        <state relative-caret-position="220">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2412#2413#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-            <element signature="e#2791#2792#0" expanded="true" />
-            <element signature="e#2849#2850#0" expanded="true" />
-            <element signature="e#2994#2995#0" expanded="true" />
-            <element signature="e#3034#3035#0" expanded="true" />
-            <element signature="method#addition#0;class#Collection#0" expanded="false" />
-            <element signature="method#multi_fractions#0;class#Collection#0" expanded="false" />
-            <element signature="method#multi_addition#0;class#Collection#0" expanded="false" />
-            <element signature="method#derivative#0;class#Collection#0" expanded="false" />
+            <marker date="1479243647995" expanded="true" signature="49:382" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="461:515" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="539:550" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="586:592" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="598:742" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="792:803" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="835:841" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="847:1073" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="1137:1148" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="1190:1196" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="1202:1543" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="1601:1935" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="1941:2083" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="2127:2138" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="2166:2172" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="2178:2347" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="2394:2405" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="2437:2443" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="2449:2740" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="2780:2791" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="2834:2840" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="2846:2963" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="2990:3001" ph=" { " />
+            <marker date="1479243647995" expanded="false" signature="3026:3032" ph=" }" />
+            <marker date="1479243647995" expanded="true" signature="3038:3211" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="3249:3446" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="3452:3896" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="3953:4844" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="4850:5311" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="5375:6720" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="6726:7074" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="7138:7913" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="7919:8274" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="8341:9116" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="9122:9474" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="9544:10647" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="10010:10203" ph="//..." />
+            <marker date="1479243647995" expanded="true" signature="10653:11087" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="11176:11618" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="11624:11976" ph="/**...*/" />
+            <marker date="1479243647995" expanded="false" signature="12065:12756" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="12762:13077" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="13145:15111" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="15117:15498" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="15536:20232" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="20238:20487" ph="/**...*/" />
+            <marker date="1479243647995" expanded="true" signature="20549:21646" ph="{...}" />
+            <marker date="1479243647995" expanded="true" signature="20988:21100" ph="//..." />
+            <marker date="1479243647995" expanded="true" signature="21274:21402" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <marker date="1479244055873" expanded="true" signature="63:74" ph=" { " />
+            <marker date="1479244055873" expanded="true" signature="96:102" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

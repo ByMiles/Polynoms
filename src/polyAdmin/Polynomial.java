@@ -1,11 +1,22 @@
 package polyAdmin;
 
+/**
+ * @author Miles Lorenz (S0556515)
+ * @version 1.0 <br>
+ * This class stores all information about one polynomial.<br>
+ * Attribute values[] stores the factors in an array, the power corresponds to the index
+ * Attribute remainder[] stores the possible remainder after horner-division.
+ */
 public class Polynomial
 {
     private double[] values;
     private double[] remainder;
     private int length;
 
+    /**
+     * new empty polynomial with lengtth length
+     * @param length length of the new polynomial
+     */
     public Polynomial(int length)
     {
         this.length = length;
@@ -19,21 +30,40 @@ public class Polynomial
         remainder = new double[]{0, 0};
     }
 
+    /**
+     * returns the length of the polynomial, the array values
+     * @return int length
+     */
     public int getLength()
     {
         return this.length;
     }
 
-    public double getValue(int place)
+    /**
+     * returns the factor at the index position of the array values
+     * @param position index of the factor in the array values
+     * @return double value[position]
+     */
+    public double getValue(int position)
     {
-        return this.values[place];
+        return this.values[position];
     }
 
-    void setValue(int place, double value)
+    /**
+     * sets the factor at the index postion of the array values
+     * @param position index of the factor in the array values
+     * @param value new value of the factor
+     */
+    void setValue(int position, double value)
     {
-        this.values[place] = value;
+        this.values[position] = value;
     }
 
+    /**
+     * creates instant and returns a displayable String using html
+     * factors are rounded to two decimal places
+     * @return String polynomial
+     */
     public String toString()
     {
         String text = "<html>";
@@ -87,7 +117,7 @@ public class Polynomial
         remainder[1] = under;
     }
 
-    double[] getRemainder()
+    public double[] getRemainder()
     {
         return remainder;
     }
@@ -109,6 +139,9 @@ public class Polynomial
         return text;
     }
 
+    /**
+     * rebuilds the array values with no backlog
+     */
     void optimize()
     {
         if(values[values.length-1] != 0)

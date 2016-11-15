@@ -3,11 +3,8 @@ package polyAdmin;
 import java.util.ArrayList;
 
 /**
- * <h1>polyAdmin.Collection</h1>
- * <br>
  * @author Miles Lorenz (S0556515)
- * @version 1.0
- * <br>
+ * @version 1.0 <br>
  * This class is the backbone of the program.
  * Polynomials are saved in the ArrayList collection.
  * Operations with this saved polynomials are collected here.<br>
@@ -37,10 +34,12 @@ public class Collection {
     /**
      * adds a polynomial at a specific position of the collection.
      *
-     * @param position position where the polynomial is to be added
-     * @param polynomial  polynomial which is to be added to collection
+     * @param position   position where the polynomial is to be added
+     * @param polynomial polynomial which is to be added to collection
      */
-    public void addPolynom(int position, Polynomial polynomial) { this.collection.add(position, polynomial);}
+    public void addPolynom(int position, Polynomial polynomial) {
+        this.collection.add(position, polynomial);
+    }
 
     /**
      * creates polynominal of the class Polynomial from a given double-array
@@ -55,13 +54,14 @@ public class Collection {
             polynomial.setValue(i, poly_array[i]);
         }
 
-         // blank fields behind the last field != 0 gets "cut" by the optimize-method
+        // blank fields behind the last field != 0 gets "cut" by the optimize-method
         polynomial.optimize();
         return polynomial;
     }
 
     /**
      * removes a polynomial from the array-list collection
+     *
      * @param position index of the polynomial that gets deleted
      */
     public void deletePolynom(int position) {
@@ -70,6 +70,7 @@ public class Collection {
 
     /**
      * returns a polynomial from the array-list collection
+     *
      * @param position index of the polynomial thats get returned
      * @return Polynomial
      */
@@ -80,6 +81,7 @@ public class Collection {
     /**
      * returns a polynomial from the array-list as a displayable String
      * (for more info about the returned String at {@link polyAdmin.Polynomial#toString() Polynomial.toString()} method
+     *
      * @param position index of the polynomial
      * @return displayable String
      */
@@ -89,6 +91,7 @@ public class Collection {
 
     /**
      * returns the number of the saved polynomials in the array-list collection
+     *
      * @return int
      */
     public int getLength() {
@@ -98,6 +101,7 @@ public class Collection {
     /**
      * returns the array-list collection as an array.
      * The array is generated fresh by call and reference is not stored.
+     *
      * @return Polynomial[]
      */
     public Polynomial[] getAsArray() {
@@ -112,8 +116,9 @@ public class Collection {
     /**
      * calculates and returns the y-value belonging to a handed over x-value from a polynomial of the array-list collection
      * the used mathematical method is pluging in the x-value in the polynomial
+     *
      * @param position index of the polynomial in the array-list collection
-     * @param x_value x-value, which is plugged in. Is the x_value not parsable to Double x_value is handled as 0.
+     * @param x_value  x-value, which is plugged in. Is the x_value not parsable to Double x_value is handled as 0.
      * @return Double y-value
      */
     public double valueAt(int position, String x_value) {
@@ -147,13 +152,14 @@ public class Collection {
 
         return value;
     }
+
     /**
      * calculates and returns the y-value belonging to a handed over x-value from a polynomial of the array-list collection
      * the used mathematical method is the horner-scheme:
      * (polynomial) / (x - a)
      *
      * @param position index of the polynomial in the array-list collection
-     * @param a_value a-value of the term (x-a) Is the a_value not parsable to Double the result is given as the y for = 0.
+     * @param a_value  a-value of the term (x-a) Is the a_value not parsable to Double the result is given as the y for = 0.
      * @return Double y-value
      */
     public double valueAt_Horner(int position, String a_value) {
@@ -278,7 +284,7 @@ public class Collection {
         Polynomial polynomial = new Polynomial(collection.get(position_1).getLength() + collection.get(position_2).getLength() - 1);
 
         // "fractures" stores the interim results. The length equals the length of the first factor-polynomial,
-        
+
         Polynomial[] fractures = new Polynomial[collection.get(position_1).getLength()];
 
         // each field of the first factor-polynomial is multiplied with the hole second factor-polynomial
@@ -301,8 +307,8 @@ public class Collection {
      * multiplicator * x ^ power * (polynomial[= collection.get(position_2)])
      *
      * @param multiplicator the factor in front of "x"
-     * @param power the power of "x"
-     * @param position_2 the intex of the polyinomial which gets multiplicated
+     * @param power         the power of "x"
+     * @param position_2    the intex of the polyinomial which gets multiplicated
      * @return Polynomial
      */
     private Polynomial multi_fractions(double multiplicator, int power, int position_2) {
@@ -355,8 +361,9 @@ public class Collection {
 
     /**
      * calculates a division using the horner-scheme and returns the result as an polynomial of the class Polynomial
+     *
      * @param position index
-     * @param a_value a-value of the term (x-a) Is the a_value not parsable to Double the result is given as the y for = 0.
+     * @param a_value  a-value of the term (x-a) Is the a_value not parsable to Double the result is given as the y for = 0.
      * @return Polynomial
      */
     public Polynomial divisionHorner(int position, String a_value) {
@@ -368,16 +375,13 @@ public class Collection {
         double value;
 
         // parsing a_value to double
-        try
-        {
+        try {
             // -- = +
-            if(a_value.substring(0,2).equals("--"))
+            if (a_value.substring(0, 2).equals("--"))
                 a_value = a_value.substring(2);
             under = Double.parseDouble(a_value);
-        }
-        catch (NumberFormatException e)
-        {
-            if(a_value.equals(""))
+        } catch (NumberFormatException e) {
+            if (a_value.equals(""))
                 under = 0;
             else
                 return new Polynomial(1);
@@ -385,7 +389,7 @@ public class Collection {
 
         // making a = -a
 
-        under = under*-1;
+        under = under * -1;
 
         int start = 0;
 
@@ -397,24 +401,22 @@ public class Collection {
             }
         }
         Polynomial polynomial = new Polynomial(start);
-        if(start == 0)
-        {
+        if (start == 0) {
             polynomial = new Polynomial(1);
             polynomial.setValue(0, 0);
-            polynomial.setRemainder(collection.get(position).getValue(0), under*-1);
+            polynomial.setRemainder(collection.get(position).getValue(0), under * -1);
             return polynomial;
         }
 
         // horner-algorithm: ((first factor * (-a) + second factor) * (-a) + third factor)...
         value = collection.get(position).getValue(start);
-        polynomial.setValue(polynomial.getLength()-1, value);
+        polynomial.setValue(polynomial.getLength() - 1, value);
         start--;
 
-        for (int i = start; i > 0; i--)
-        {
+        for (int i = start; i > 0; i--) {
             // caused by the power-reduction the value is stored one field "deeper"
             value = value * under + collection.get(position).getValue(i);
-            polynomial.setValue(i-1, value);
+            polynomial.setValue(i - 1, value);
 
         }
 
@@ -422,165 +424,155 @@ public class Collection {
         value = value * under + collection.get(position).getValue(0);
 
         // remainder is stored in the corresponding polynomial
-        polynomial.setRemainder(value, under*-1);
+        polynomial.setRemainder(value, under * -1);
         return polynomial;
     }
 
     /**
      * finds and returns a root of a polynomial from the array-list collection<br>
      * the algorithm uses iteration over the area -10`000 - 10`000<br>
-     *
+     * with {@link polyAdmin.Collection#valueAt_Horner(int, String) valueAt_Horner}
+     * a root is approximated
      * @param position index of the polynomial in the array-list collection
      * @return Polynomial
      */
     public double root(int position) {
-        double zero = 0.0;
-        double i = 0.0;
-        double steps = 1.0;
-        double test;
-        double previous = 0.0;
-        int counter = 0;
-        boolean closer = false;
-        boolean forward = true;
+        double i = 0.0;          // stores the current x-value
+        double steps = 1.0;      // stores the distance between the previous and the current x-value
+        double test;             // stores the to the current x-value belonging y-value
+        double previous = 0.0;   // stores the previous y-value
+        int counter = 0;         // counts the failed runs
+        boolean closer = false;  // stores if the distance to 0 increased or decreased
+        boolean forward = true;  // stores if i increases or decreases
 
-        while(true)
-        {
-            test = valueAt_Horner(position, String.valueOf(i));
-            if(Math.round(test*1000.)/1000. == 0)
-            {
-                return i;
+
+        // break is counter >= 10000
+        while (true) {
+            test = valueAt_Horner(position, String.valueOf(i));  // returns the y-value
+            if (Math.round(test * 1000.) / 1000. == 0) {
+                return i; // root is found
             }
-            if(Math.abs(previous) > Math.abs(test))
-            {
-                if(closer)
-                {
-                    if(forward)
-                        i+=steps;
+
+            if (Math.abs(previous) > Math.abs(test)) {  // => current y-value is closer to 0 then previous
+                if (closer) {                           // => previous was also closer than the one before
+                    if (forward)
+                        i += steps;                     // => i is increased by steps, => next run
                     else
-                        i-=steps;
-                }
-                else
-                {
-                    closer = true;
-                    counter = 0;
-                    if(forward)
-                        i+=steps;
+                        i -= steps;                     // => i is decreased by steps, => next run
+                } else {
+                    closer = true;                      // => previous was not closer than the one before
+                    counter = 0;                        // => probably we are coming closer
+                    if (forward)
+                        i += steps;                     // => i is increased by steps, => next run
                     else
-                        i-=steps;
+                        i -= steps;                     // => i is decreased by steps, => next run
                 }
-            }
-            else
-            {
-                if(closer)
-                {
+            } else {                                    // => current y-value is not closer to 0 than previous
+                if (closer) {                           // => previous was also closer than the one before
                     closer = false;
-                    forward = !forward;
-                    steps = steps/2;
-                    if(forward)
-                        i+=steps;
+                    forward = !forward;                 // => probably we run over 0, so we change the direction
+                    steps = steps / 2;                  // => we half the step-size, for going back
+                    if (forward)
+                        i += steps;                     // => i is increased by steps, => next run
                     else
-                        i-=steps;
-                }
-                else
-                {
-                    counter++;
-                    if(counter >= 10000)
-                    {
-                        forward = false;
-                        counter = 0;
+                        i -= steps;                     // => i is decreased by steps, => next run
+                } else {
+                    counter++;                          // => previous was not closer than the one before
+                    if (counter >= 10000) {             // => we made 10'000 steps without finding
+                        forward = false;                // => all values rested, try find one by starting
+                        counter = 0;                    //    other direction
                         i = 0.;
                         steps = 1.0;
                         break;
                     }
-                    if(forward)
-                        i+=steps;
+                    if (forward)
+                        i += steps;
                     else
-                        i-=steps;
+                        i -= steps;
                 }
             }
             previous = test;
         }
-        while(true)
-        {
+        while (true) {
             test = valueAt_Horner(position, String.valueOf(i));
-            if(Math.round(test*1000.)/1000. == 0)
-            {
+            if (Math.round(test * 1000.) / 1000. == 0) {
                 return i;
             }
-            if(Math.abs(previous) > Math.abs(test))
-            {
-                if(closer)
-                {
-                    if(forward)
-                        i+=steps;
+            if (Math.abs(previous) > Math.abs(test)) {
+                if (closer) {
+                    if (forward)
+                        i += steps;
                     else
-                        i-=steps;
-                }
-                else
-                {
+                        i -= steps;
+                } else {
                     closer = true;
                     counter = 0;
-                    if(forward)
-                        i+=steps;
+                    if (forward)
+                        i += steps;
                     else
-                        i-=steps;
+                        i -= steps;
                 }
-            }
-            else
-            {
-                if(closer)
-                {
+            } else {
+                if (closer) {
                     closer = false;
                     forward = !forward;
-                    steps = steps/2;
-                    if(forward)
-                        i+=steps;
+                    steps = steps / 2;
+                    if (forward)
+                        i += steps;
                     else
-                        i-=steps;
-                }
-                else
-                {
+                        i -= steps;
+                } else {
                     counter++;
-                    if(counter >= 10000)
-                        return zero;
-                    if(forward)
-                        i+=steps;
+                    if (counter >= 10000)              // => no root found
+                        return 0;                      // => Math_Root checks for remainder with divisionHorner()
+                    if (forward)                       // if remainder = 0 => root at x = 0, else => no root found
+                        i += steps;
                     else
-                        i-=steps;
+                        i -= steps;
                 }
             }
             previous = test;
         }
     }
 
+    /**
+     * calculates and returns a derivative from a polynomial from the array-list collection
+     * @param position index of the polynomial in the array-list collection
+     * @param value grade of the derivative
+     * @return Polynomial
+     */
     public Polynomial derivative(int position, String value) {
         Polynomial polynomial = collection.get(position);
         Polynomial derivated;
 
         int i;
 
-        try
-        {
+        try {
             i = Integer.parseInt(value);
+        } catch (NumberFormatException e) {
+            i = 0;
         }
-        catch(NumberFormatException e){i = 0;}
 
-        if(i >= polynomial.getLength())
-        {
+        if (i >= polynomial.getLength()) {
             i = 0;
             polynomial = new Polynomial(1);
             polynomial.setValue(0, 0);
         }
 
-        if(i < 0)
+        if (i < 0)
             i = 0;
 
-        while(i > 0)
-        {
-            derivated = new Polynomial(polynomial.getLength()-1);
-            for (int j = derivated.getLength(); j > 0; j--)
-            {
-                derivated.setValue(j-1, polynomial.getValue(j)*j);
+        // i is the grad of derivation
+        // each derivation is a derivation of the previous derivation till i == 0
+        while (i > 0) {
+
+            // derivation is one grade smaller than the polynomial
+            derivated = new Polynomial(polynomial.getLength() - 1);
+
+            // power gets decreased by 1 and the factor gets multiplied with the value of the old power
+            // 2x^3 => 3*2x^2 = 6x^2
+            for (int j = derivated.getLength(); j > 0; j--) {
+                derivated.setValue(j - 1, polynomial.getValue(j) * j);
             }
             polynomial = derivated;
             i--;
@@ -588,7 +580,6 @@ public class Collection {
 
         return polynomial;
     }
-
 
 
 }
