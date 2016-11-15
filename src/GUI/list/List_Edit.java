@@ -110,8 +110,8 @@ public class List_Edit extends Math_Panel
             String text = poly_fields[i].getText();
             // parsing "," to "." to avoid NumberFormatExceptions
             for (int j = 0; j < text.length(); j++) {
-                if (text.charAt(i) == ',')
-                    text = text.substring(0, i) + "." + text.substring(i + 1);
+                if (text.charAt(j) == ',')
+                    text = text.substring(0, j) + "." + text.substring(j + 1);
             }
             try
             {
@@ -134,8 +134,8 @@ public class List_Edit extends Math_Panel
             String text = poly_fields[i].getText();
             // parsing "," to "." to avoid NumberFormatExceptions
             for (int j = 0; j < text.length(); j++) {
-                if (text.charAt(i) == ',')
-                    text = text.substring(0, i) + "." + text.substring(i + 1);
+                if (text.charAt(j) == ',')
+                    text = text.substring(0, j) + "." + text.substring(j + 1);
             }
             try
             {
