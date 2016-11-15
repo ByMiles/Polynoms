@@ -1,3 +1,4 @@
+import GUI.GUI;
 
 public class Main
 {

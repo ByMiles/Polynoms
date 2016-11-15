@@ -6,9 +6,55 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="780bd445-e28f-47ad-9cea-3bf3c619e698" name="Default" comment="division now with double">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_dropdown.java" afterPath="$PROJECT_DIR$/src/Menu_Dropdown.java" />
+    <list default="true" id="780bd445-e28f-47ad-9cea-3bf3c619e698" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Collection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/GUI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Add.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Delete.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Edit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_List.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/List_Panel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Addition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Derivative.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Division.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Draw$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Draw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Multiplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Panel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Root.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Subtraction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Math_Value_at_Position.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_Bar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_Button.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_Input.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_Label.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Menu_dropdown.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Polynoms/Polynom.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Collection.java" afterPath="$PROJECT_DIR$/src/polyAdmin/Collection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI/GUI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_Add.java" afterPath="$PROJECT_DIR$/src/GUI/list/List_Add.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_Delete.java" afterPath="$PROJECT_DIR$/src/GUI/list/List_Delete.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_Edit.java" afterPath="$PROJECT_DIR$/src/GUI/list/List_Edit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_List.java" afterPath="$PROJECT_DIR$/src/GUI/list/List_List.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/List_Panel.java" afterPath="$PROJECT_DIR$/src/GUI/List_Panel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Addition.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Addition.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Derivative.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Derivative.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Division.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Division.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Draw.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Draw.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Multiplication.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Multiplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Panel.java" afterPath="$PROJECT_DIR$/src/GUI/Math_Panel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Root.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Root.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Subtraction.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Subtraction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Math_Value_at_Position.java" afterPath="$PROJECT_DIR$/src/GUI/math/Math_Value_at_Position.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Bar.java" afterPath="$PROJECT_DIR$/src/GUI/Menu_Bar.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Button.java" afterPath="$PROJECT_DIR$/src/GUI/menu/Menu_Button.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Dropdown.java" afterPath="$PROJECT_DIR$/src/GUI/menu/Menu_Dropdown.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Input.java" afterPath="$PROJECT_DIR$/src/GUI/menu/Menu_Input.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Menu_Label.java" afterPath="$PROJECT_DIR$/src/GUI/menu/Menu_Label.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Polynom.java" afterPath="$PROJECT_DIR$/src/polyAdmin/Polynomial.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polynoms/Main.class" afterPath="$PROJECT_DIR$/out/production/Polynoms/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="Polynoms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,13 +75,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Menu_Dropdown.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Menu_Dropdown.java">
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/polyAdmin/Collection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="431" column="7" selection-start-line="431" selection-start-column="7" selection-end-line="431" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2152#2153#0" expanded="true" />
+                <element signature="e#2195#2196#0" expanded="true" />
+                <element signature="e#2412#2413#0" expanded="true" />
+                <element signature="e#2459#2460#0" expanded="true" />
+                <element signature="e#2791#2792#0" expanded="true" />
+                <element signature="e#2849#2850#0" expanded="true" />
+                <element signature="e#2994#2995#0" expanded="true" />
+                <element signature="e#3034#3035#0" expanded="true" />
+                <element signature="method#addition#0;class#Collection#0" expanded="false" />
+                <element signature="method#multi_fractions#0;class#Collection#0" expanded="false" />
+                <element signature="method#multi_addition#0;class#Collection#0" expanded="false" />
+                <element signature="method#derivative#0;class#Collection#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -61,15 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Add_Polynom.java" />
-        <option value="$PROJECT_DIR$/src/List_Polynom.java" />
-        <option value="$PROJECT_DIR$/src/Delete_Polynom.java" />
-        <option value="$PROJECT_DIR$/src/ComboBoxModel.java" />
-        <option value="$PROJECT_DIR$/src/DropDown.java" />
-        <option value="$PROJECT_DIR$/src/Value_at_Position.java" />
-        <option value="$PROJECT_DIR$/src/Addition.java" />
-        <option value="$PROJECT_DIR$/src/Subtraction.java" />
-        <option value="$PROJECT_DIR$/src/Edit_Polynom.java" />
         <option value="$PROJECT_DIR$/src/Multiplication.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Menu_Input.java" />
@@ -89,15 +137,38 @@
         <option value="$PROJECT_DIR$/src/Math_Panel.java" />
         <option value="$PROJECT_DIR$/src/Draw.java" />
         <option value="$PROJECT_DIR$/src/Math_Draw.java" />
-        <option value="$PROJECT_DIR$/src/GUI.java" />
         <option value="$PROJECT_DIR$/src/Math_Addition.java" />
         <option value="$PROJECT_DIR$/src/Math_Subtraction.java" />
         <option value="$PROJECT_DIR$/src/Math_Division.java" />
         <option value="$PROJECT_DIR$/src/Math_Multiplication.java" />
         <option value="$PROJECT_DIR$/src/List_Add.java" />
-        <option value="$PROJECT_DIR$/src/List_Edit.java" />
-        <option value="$PROJECT_DIR$/src/Collection.java" />
         <option value="$PROJECT_DIR$/src/Polynom.java" />
+        <option value="$PROJECT_DIR$/src/Collection.java" />
+        <option value="$PROJECT_DIR$/src/List_Edit.java" />
+        <option value="$PROJECT_DIR$/src/GUI.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Panel.java" />
+        <option value="$PROJECT_DIR$/src/GUI/menu/Menu_Label.java" />
+        <option value="$PROJECT_DIR$/src/GUI/list/List_Add.java" />
+        <option value="$PROJECT_DIR$/src/GUI/menu/Menu_Button.java" />
+        <option value="$PROJECT_DIR$/src/GUI/menu/Menu_Input.java" />
+        <option value="$PROJECT_DIR$/src/GUI/List_Panel.java" />
+        <option value="$PROJECT_DIR$/src/GUI/Math_Panel.java" />
+        <option value="$PROJECT_DIR$/src/GUI/Menu_Bar.java" />
+        <option value="$PROJECT_DIR$/src/GUI/GUI.java" />
+        <option value="$PROJECT_DIR$/src/GUI/list/List_Delete.java" />
+        <option value="$PROJECT_DIR$/src/GUI/list/List_Edit.java" />
+        <option value="$PROJECT_DIR$/src/GUI/list/List_List.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Addition.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Derivative.java" />
+        <option value="$PROJECT_DIR$/src/GUI/menu/Menu_Dropdown.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Multiplication.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Root.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Subtraction.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Value_at_Position.java" />
+        <option value="$PROJECT_DIR$/src/polyAdmin/Polynom.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Division.java" />
+        <option value="$PROJECT_DIR$/src/GUI/math/Math_Draw.java" />
+        <option value="$PROJECT_DIR$/src/polyAdmin/Collection.java" />
       </list>
     </option>
   </component>
@@ -114,8 +185,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1924" />
-    <option name="height" value="1084" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -142,6 +213,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,11 +248,110 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polyAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polynoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,11 +685,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478734993038</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bug fix dropdown">
+      <created>1478785296710</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1478785296710</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1924" height="1084" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -526,12 +706,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30359086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3033226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25270563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25241676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -542,7 +723,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -561,7 +741,8 @@
     <MESSAGE value="updated List_Delete" />
     <MESSAGE value="added Graph drawing" />
     <MESSAGE value="division now with double" />
-    <option name="LAST_COMMIT_MESSAGE" value="division now with double" />
+    <MESSAGE value="bug fix dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix dropdown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,114 +755,118 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Polynom.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/menu/Menu_Dropdown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <marker date="1479203165151" expanded="true" signature="26:88" ph="..." />
+            <marker date="1479203165151" expanded="true" signature="186:327" ph="{...}" />
+            <marker date="1479203165151" expanded="true" signature="373:513" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/menu/Menu_Dropdown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1479203165151" expanded="true" signature="26:88" ph="..." />
+            <marker date="1479203165151" expanded="true" signature="186:327" ph="{...}" />
+            <marker date="1479203165151" expanded="true" signature="373:513" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Edit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polyAdmin/Polynomial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2398">
           <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
-          <folding>
-            <marker date="1478734902879" expanded="true" signature="131:342" ph="{...}" />
-            <marker date="1478734902879" expanded="false" signature="363:378" ph=" { " />
-            <marker date="1478734902879" expanded="false" signature="397:403" ph=" }" />
-            <marker date="1478734902879" expanded="false" signature="435:450" ph=" { " />
-            <marker date="1478734902879" expanded="false" signature="476:482" ph=" }" />
-            <marker date="1478734902879" expanded="false" signature="526:541" ph=" { " />
-            <marker date="1478734902879" expanded="false" signature="568:574" ph=" }" />
-            <marker date="1478734902879" expanded="true" signature="609:1679" ph="{...}" />
-            <marker date="1478734902879" expanded="true" signature="1735:1802" ph="{...}" />
-            <marker date="1478734902879" expanded="false" signature="1831:1846" ph=" { " />
-            <marker date="1478734902879" expanded="false" signature="1863:1869" ph=" }" />
-            <marker date="1478734902879" expanded="true" signature="1906:2194" ph="{...}" />
-            <marker date="1478734902879" expanded="true" signature="2220:2667" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_Edit.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Edit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2376">
           <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <marker date="1478734623466" expanded="true" signature="7:40" ph="..." />
-            <marker date="1478734623466" expanded="true" signature="376:1455" ph="{...}" />
-            <marker date="1478734623466" expanded="true" signature="1518:2898" ph="{...}" />
-            <marker date="1478734623466" expanded="true" signature="2936:3420" ph="{...}" />
-            <marker date="1478734623466" expanded="true" signature="3470:4095" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collection.java">
+    <entry file="file://$PROJECT_DIR$/src/polyAdmin/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9152">
           <caret line="428" column="22" selection-start-line="428" selection-start-column="22" selection-end-line="428" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collection.java">
+    <entry file="file://$PROJECT_DIR$/src/polyAdmin/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9152">
           <caret line="428" column="22" selection-start-line="428" selection-start-column="22" selection-end-line="428" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_Add.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Add.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Polynom.java">
+    <entry file="file://$PROJECT_DIR$/src/polyAdmin/Polynomial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
           <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_Delete.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Delete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Division.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Division.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Division.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Division.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Derivative.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Derivative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,35 +899,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu_Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuTools.java" />
-    <entry file="file://$PROJECT_DIR$/src/List_Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu_Label.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -751,172 +908,320 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu_Bar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Derivative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Root.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Draw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu_Action.java" />
-    <entry file="file://$PROJECT_DIR$/src/GUI.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/menu/Menu_Label.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="88">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <marker date="1479200583063" expanded="false" signature="26:59" ph="..." />
+            <marker date="1479200583063" expanded="true" signature="141:334" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Addition.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/menu/Menu_Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <marker date="1479200582954" expanded="false" signature="26:97" ph="..." />
+            <marker date="1479200582954" expanded="true" signature="246:608" ph="{...}" />
+            <marker date="1479200582954" expanded="true" signature="666:751" ph="{...}" />
+            <marker date="1479200582954" expanded="true" signature="805:864" ph="{...}" />
+            <marker date="1479200582954" expanded="true" signature="912:968" ph="{...}" />
+            <marker date="1479200582954" expanded="true" signature="996:1564" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Subtraction.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/menu/Menu_Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <marker date="1479200582954" expanded="false" signature="26:59" ph="..." />
+            <marker date="1479200582954" expanded="true" signature="134:281" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/List_Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding>
+            <marker date="1479200582985" expanded="true" signature="21:102" ph="..." />
+            <marker date="1479200582985" expanded="true" signature="240:1285" ph="{...}" />
+            <marker date="1479200582985" expanded="false" signature="1339:1354" ph=" { " />
+            <marker date="1479200582985" expanded="false" signature="1378:1384" ph=" }" />
+            <marker date="1479200582985" expanded="false" signature="1439:1454" ph=" { " />
+            <marker date="1479200582985" expanded="false" signature="1478:1484" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/Math_Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding>
+            <marker date="1479200582891" expanded="true" signature="21:73" ph="..." />
+            <marker date="1479200582891" expanded="true" signature="224:1093" ph="{...}" />
+            <marker date="1479200582891" expanded="true" signature="1131:1219" ph="{...}" />
+            <marker date="1479200582891" expanded="true" signature="1285:1395" ph="{...}" />
+            <marker date="1479200582891" expanded="false" signature="1435:1450" ph=" { " />
+            <marker date="1479200582891" expanded="false" signature="1477:1483" ph=" }" />
+            <marker date="1479200582891" expanded="true" signature="1523:1642" ph="{...}" />
+            <marker date="1479200582891" expanded="false" signature="1696:1711" ph=" { " />
+            <marker date="1479200582891" expanded="false" signature="1735:1741" ph=" }" />
+            <marker date="1479200582891" expanded="false" signature="1795:1810" ph=" { " />
+            <marker date="1479200582891" expanded="false" signature="1834:1840" ph=" }" />
+            <marker date="1479200582891" expanded="false" signature="1895:1910" ph=" { " />
+            <marker date="1479200582891" expanded="false" signature="1934:1940" ph=" }" />
+            <marker date="1479200582891" expanded="false" signature="1997:2012" ph=" { " />
+            <marker date="1479200582891" expanded="false" signature="2053:2059" ph=" }" />
+            <marker date="1479200582891" expanded="true" signature="2110:2137" ph="{...}" />
+            <marker date="1479200582891" expanded="false" signature="2169:2184" ph=" { " />
+            <marker date="1479200582891" expanded="false" signature="2236:2242" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/Menu_Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1479200583016" expanded="true" signature="21:113" ph="..." />
+            <marker date="1479200583016" expanded="true" signature="300:785" ph="{...}" />
+            <marker date="1479200583016" expanded="true" signature="830:1104" ph="{...}" />
+            <marker date="1479200583016" expanded="true" signature="1157:1404" ph="{...}" />
+            <marker date="1479200583016" expanded="false" signature="1424:1439" ph=" { " />
+            <marker date="1479200583016" expanded="false" signature="1452:1458" ph=" }" />
+            <marker date="1479200583016" expanded="false" signature="1494:1509" ph=" { " />
+            <marker date="1479200583016" expanded="false" signature="1542:1548" ph=" }" />
+            <marker date="1479200583016" expanded="false" signature="1586:1601" ph=" { " />
+            <marker date="1479200583016" expanded="false" signature="1636:1642" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1626">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+          <folding>
+            <marker date="1479200583001" expanded="true" signature="21:121" ph="..." />
+            <marker date="1479200583001" expanded="true" signature="123:503" ph="/**...*/" />
+            <marker date="1479200583001" expanded="true" signature="642:816" ph="/**...*/" />
+            <marker date="1479200583001" expanded="true" signature="855:1864" ph="{...}" />
+            <marker date="1479200583001" expanded="true" signature="1870:1999" ph="/**...*/" />
+            <marker date="1479200583001" expanded="true" signature="2038:3851" ph="{...}" />
+            <marker date="1479200583001" expanded="true" signature="3857:3917" ph="/**...*/" />
+            <marker date="1479200583001" expanded="false" signature="3948:3959" ph=" { " />
+            <marker date="1479200583001" expanded="false" signature="3982:3988" ph=" }" />
+            <marker date="1479200583001" expanded="true" signature="3994:4087" ph="/**...*/" />
+            <marker date="1479200583001" expanded="true" signature="4120:4231" ph="{...}" />
+            <marker date="1479200583001" expanded="true" signature="4237:4331" ph="/**...*/" />
+            <marker date="1479200583001" expanded="true" signature="4365:4496" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+          <folding>
+            <marker date="1479203165120" expanded="true" signature="26:147" ph="..." />
+            <marker date="1479203165120" expanded="true" signature="461:1063" ph="{...}" />
+            <marker date="1479203165120" expanded="true" signature="1112:2204" ph="{...}" />
+            <marker date="1479203165120" expanded="true" signature="2242:2939" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <marker date="1479200583095" expanded="true" signature="27:145" ph="..." />
+            <marker date="1479200583095" expanded="true" signature="293:1224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <marker date="1479200583032" expanded="true" signature="26:89" ph="..." />
+            <marker date="1479200583032" expanded="true" signature="184:692" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Addition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1479203165089" expanded="true" signature="26:134" ph="..." />
+            <marker date="1479203165089" expanded="true" signature="299:1186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/menu/Menu_Dropdown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <marker date="1479203165151" expanded="true" signature="26:88" ph="..." />
+            <marker date="1479203165151" expanded="true" signature="186:327" ph="{...}" />
+            <marker date="1479203165151" expanded="true" signature="373:513" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Multiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1479203165183" expanded="true" signature="26:134" ph="..." />
+            <marker date="1479203165183" expanded="true" signature="348:1258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Subtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <marker date="1479203165167" expanded="true" signature="26:134" ph="..." />
+            <marker date="1479203165167" expanded="true" signature="341:1210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Value_at_Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <marker date="1479200582923" expanded="true" signature="26:89" ph="..." />
+            <marker date="1479200582923" expanded="true" signature="364:1398" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Division.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="47" column="132" selection-start-line="47" selection-start-column="132" selection-end-line="47" selection-end-column="132" />
+          <folding>
+            <marker date="1479203165183" expanded="true" signature="26:134" ph="..." />
+            <marker date="1479203165183" expanded="true" signature="330:1619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <marker date="1479200582907" expanded="true" signature="26:89" ph="..." />
+            <marker date="1479200582907" expanded="true" signature="210:843" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Draw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Value_at_Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-407">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Multiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="97" column="59" selection-start-line="97" selection-start-column="59" selection-end-line="97" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/List_Edit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <caret line="114" column="73" selection-start-line="114" selection-start-column="73" selection-end-line="114" selection-end-column="73" />
           <folding>
-            <marker date="1478734623466" expanded="true" signature="7:40" ph="..." />
-            <marker date="1478734623466" expanded="true" signature="376:1455" ph="{...}" />
-            <marker date="1478734623466" expanded="true" signature="1518:2898" ph="{...}" />
-            <marker date="1478734623466" expanded="true" signature="2936:3420" ph="{...}" />
-            <marker date="1478734623466" expanded="true" signature="3470:4095" ph="{...}" />
+            <marker date="1479202288158" expanded="true" signature="26:108" ph="..." />
+            <marker date="1479202288158" expanded="true" signature="424:2714" ph="{...}" />
+            <marker date="1479202288158" expanded="false" signature="1817:1904" ph="(JPanel) paintComponent(g) → {" />
+            <marker date="1479202288158" expanded="false" signature="2614:2629" ph="}" />
+            <marker date="1479202288158" expanded="true" signature="2749:3596" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Math_Division.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/math/Math_Derivative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="441" column="71" selection-start-line="441" selection-start-column="71" selection-end-line="441" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Polynom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+        <state relative-caret-position="208">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
-            <marker date="1478734902879" expanded="true" signature="131:342" ph="{...}" />
-            <marker date="1478734902879" expanded="false" signature="363:378" ph=" { " />
-            <marker date="1478734902879" expanded="false" signature="397:403" ph=" }" />
-            <marker date="1478734902879" expanded="false" signature="435:450" ph=" { " />
-            <marker date="1478734902879" expanded="false" signature="476:482" ph=" }" />
-            <marker date="1478734902879" expanded="false" signature="526:541" ph=" { " />
-            <marker date="1478734902879" expanded="false" signature="568:574" ph=" }" />
-            <marker date="1478734902879" expanded="true" signature="609:1679" ph="{...}" />
-            <marker date="1478734902879" expanded="true" signature="1735:1802" ph="{...}" />
-            <marker date="1478734902879" expanded="false" signature="1831:1846" ph=" { " />
-            <marker date="1478734902879" expanded="false" signature="1863:1869" ph=" }" />
-            <marker date="1478734902879" expanded="true" signature="1906:2194" ph="{...}" />
-            <marker date="1478734902879" expanded="true" signature="2220:2667" ph="{...}" />
+            <marker date="1479203165136" expanded="true" signature="26:134" ph="..." />
+            <marker date="1479203165136" expanded="true" signature="335:1130" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu_Button.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/list/List_Edit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        <state relative-caret-position="208">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
-            <marker date="1478734623521" expanded="false" signature="7:78" ph="..." />
-            <marker date="1478734623521" expanded="true" signature="213:575" ph="{...}" />
-            <marker date="1478734623521" expanded="true" signature="633:718" ph="{...}" />
-            <marker date="1478734623521" expanded="true" signature="765:824" ph="{...}" />
-            <marker date="1478734623521" expanded="true" signature="866:922" ph="{...}" />
-            <marker date="1478734623521" expanded="true" signature="950:1518" ph="{...}" />
+            <marker date="1479203165104" expanded="true" signature="26:131" ph="..." />
+            <marker date="1479203165104" expanded="false" signature="98:131" ph="..." />
+            <marker date="1479203165104" expanded="true" signature="481:1563" ph="{...}" />
+            <marker date="1479203165104" expanded="true" signature="1626:3006" ph="{...}" />
+            <marker date="1479203165104" expanded="true" signature="3044:3530" ph="{...}" />
+            <marker date="1479203165104" expanded="true" signature="3580:4207" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu_Dropdown.java">
+    <entry file="file://$PROJECT_DIR$/src/polyAdmin/Polynomial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1479203165089" expanded="true" signature="170:381" ph="{...}" />
+            <marker date="1479203165089" expanded="false" signature="409:424" ph=" { " />
+            <marker date="1479203165089" expanded="false" signature="443:449" ph=" }" />
+            <marker date="1479203165089" expanded="false" signature="488:503" ph=" { " />
+            <marker date="1479203165089" expanded="false" signature="529:535" ph=" }" />
+            <marker date="1479203165089" expanded="false" signature="579:594" ph=" { " />
+            <marker date="1479203165089" expanded="false" signature="621:627" ph=" }" />
+            <marker date="1479203165089" expanded="true" signature="662:1768" ph="{...}" />
+            <marker date="1479203165089" expanded="true" signature="1818:1900" ph="{...}" />
+            <marker date="1479203165089" expanded="true" signature="1956:2023" ph="{...}" />
+            <marker date="1479203165089" expanded="false" signature="2052:2067" ph=" { " />
+            <marker date="1479203165089" expanded="false" signature="2084:2090" ph=" }" />
+            <marker date="1479203165089" expanded="true" signature="2134:2458" ph="{...}" />
+            <marker date="1479203165089" expanded="true" signature="2484:2931" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polyAdmin/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="431" column="7" selection-start-line="431" selection-start-column="7" selection-end-line="431" selection-end-column="7" />
+          <folding>
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2412#2413#0" expanded="true" />
+            <element signature="e#2459#2460#0" expanded="true" />
+            <element signature="e#2791#2792#0" expanded="true" />
+            <element signature="e#2849#2850#0" expanded="true" />
+            <element signature="e#2994#2995#0" expanded="true" />
+            <element signature="e#3034#3035#0" expanded="true" />
+            <element signature="method#addition#0;class#Collection#0" expanded="false" />
+            <element signature="method#multi_fractions#0;class#Collection#0" expanded="false" />
+            <element signature="method#multi_addition#0;class#Collection#0" expanded="false" />
+            <element signature="method#derivative#0;class#Collection#0" expanded="false" />
           </folding>
         </state>
       </provider>
