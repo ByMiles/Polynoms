@@ -374,6 +374,11 @@ public class Collection {
         // value stores the result
         double value;
 
+        // parsing "," to "." to avoid NumberFormatExceptions
+        for (int i = 0; i < a_value.length(); i++) {
+            if (a_value.charAt(i) == ',')
+                a_value = a_value.substring(0, i) + "." + a_value.substring(i + 1);
+        }
         // parsing a_value to double
         try {
             // -- = +

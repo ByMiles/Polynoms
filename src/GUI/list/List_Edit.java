@@ -107,6 +107,12 @@ public class List_Edit extends Math_Panel
     {
         for (int i = 0; i < poly_array.length; i++)
         {
+            String text = poly_fields[i].getText();
+            // parsing "," to "." to avoid NumberFormatExceptions
+            for (int j = 0; j < text.length(); j++) {
+                if (text.charAt(i) == ',')
+                    text = text.substring(0, i) + "." + text.substring(i + 1);
+            }
             try
             {
                 poly_array[i] = Double.parseDouble(poly_fields[i].getText());
@@ -125,6 +131,12 @@ public class List_Edit extends Math_Panel
         int sum = 0;
         for (int i = 0; i < poly_array.length; i++)
         {
+            String text = poly_fields[i].getText();
+            // parsing "," to "." to avoid NumberFormatExceptions
+            for (int j = 0; j < text.length(); j++) {
+                if (text.charAt(i) == ',')
+                    text = text.substring(0, i) + "." + text.substring(i + 1);
+            }
             try
             {
                 poly_array[i] = Double.parseDouble(poly_fields[i].getText());
